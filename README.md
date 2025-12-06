@@ -22,11 +22,11 @@ This file contains the final answers which is required.
 Project Description:
 
 The project uses a simple agent pattern:
-Reads each question from the test dataset
-Sends a request to the API
-Enforces “final answer only” with no reasoning
-Writes all outputs to a JSON array with the required schema
-Validates output file structure before finishing
+Reads each question from the test dataset, 
+Sends a request to the API, 
+Enforces “final answer only” with no reasoning, 
+Writes all outputs to a JSON array with the required schema, 
+Validates output file structure before finishing, 
 The script hardcodes the required API settings:
 
 api_key = "cse476"
@@ -43,6 +43,6 @@ Run:
 python generate_answer_template.py
 
 The script will automatically do the following:
-Query every question
-Produce final answers only (no chain-of-thought)
-Validate that the JSON meets course requirements.
+Query every question,
+Produce final answers,
+Validate that the JSON is acceptable.
