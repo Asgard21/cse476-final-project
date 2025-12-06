@@ -3,7 +3,7 @@ CSE 476 – Final Project Report:
 This repository contains the implementation for my CSE 476 Final Project.
 The project builds an agent that generates final answers for the course test-set using the bens_model API and outputs them in the required JSON format for the autograder.
 
-How to Run the Project
+How to Run the Project:
 
 Install dependencies (Python 3.8+ recommended):
 pip install requests
