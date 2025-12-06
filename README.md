@@ -19,7 +19,7 @@ cse_476_final_project_answers.json
 
 This file contains the final answers which is required.
 
-Project Description
+Project Description:
 
 The project uses a simple agent pattern:
 Reads each question from the test dataset
@@ -33,7 +33,7 @@ api_key = "cse476"
 base_url = "http://10.4.58.53:41701/v1"
 model_name = "bens_model"
 
-Reproducibility
+Reproducibility:
 
 To reproduce the results:
 Ensure API access to the course server.
@@ -42,11 +42,7 @@ Place the test dataset file next to the script.
 Run:
 python generate_answer_template.py
 
-The script will automatically:
+The script will automatically do the following:
 Query every question
 Produce final answers only (no chain-of-thought)
 Validate that the JSON meets course requirements.
-
-Author
-
-Asgard21
